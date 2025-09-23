@@ -1,0 +1,16 @@
+name: Run Tests
+on: [push, pull_request]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+          python-version: "3.x"
+      - run: |
+          pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install -e .
+      - run: pytest
