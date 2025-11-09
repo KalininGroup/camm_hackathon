@@ -1,0 +1,13 @@
+The raw X-Ray diffraction data are in the folders labelled by each sample name. Each file has the temperature that the measurement was taken at. For each a series of scans from 25-1175 C was taken at 50 C intervals.
+
+A measured silicon standard is provided which can be used for making an instrument parameter file.
+
+For Samples the compositions are as follows
+
+Sm 2/5 Eu 2/5 Gd 2/5 Tb 2/5 Dy 2/5 Ti 2 O 7
+
+Pr 2/5 Sm 2/5 Gd 2/5 Ho 2/5 Lu 2/5 Ti 2 O 7
+
+Pr 2/5 Nd 2/5 Gd 2/5 Yb 2/5 Lu 2/5 Ti 2 O 7
+
+For the cifs that were provided there is Gadolinium Titanate which can act as a baseline for adding elements and a Hybrid High Entropy Structure that has all the elements added into it as well as a degree of site inversion added in between the rare earth elements and the titanium.

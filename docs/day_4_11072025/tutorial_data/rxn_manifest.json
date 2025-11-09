@@ -1,0 +1,13 @@
+{
+    "chem_syses":[
+        "Ca-H-N-Ni-O-P"
+    ],
+    "formulas_to_include":{
+    },
+    "special_cutoffs":{
+
+    },
+    "extra_temps":{
+        "Ca-H-N-Ni-O-P": [400, 500, 600, 700, 800, 900, 1000, 1100]
+    }
+}
